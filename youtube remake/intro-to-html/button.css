@@ -1,0 +1,65 @@
+#button1{
+    color:white;
+    background-color:rgb(200, 0, 0);
+    border-radius: 3px;
+    border: none;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:15px;
+    padding-right:15px;
+    cursor: pointer;
+    transition: opacity .15s;
+    margin-right: 8px;
+    margin-left:20px;
+    vertical-align: top;
+}
+#button1:hover{
+    opacity:80%;
+}
+#button1:active{
+    opacity:50%;
+}
+#button2{
+    color:rgb(29, 88, 252);
+    border-color:rgb(29, 88, 252);
+    padding-bottom:9px;
+    padding-top:9px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius:2px;
+    background-color: white;
+    border-style: solid;
+    border-width:1px;
+    cursor: pointer;
+    vertical-align: top;
+    
+    transition: background-color .15s, color .15s;
+}
+#button2:hover{
+    background-color:rgb(29, 88, 252);
+    color:white;
+}
+#button2:active{
+    opacity:80%;
+}
+#button3{
+    background-color:rgb(0, 131, 207);
+    color: white;
+    border-radius: 20px;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:19px;
+    padding-right:19px;
+    border-color:rgb(0, 131, 207);
+    border:none;
+    cursor: pointer;
+    font-weight:bold;
+    font-size:15px;
+    margin-left:8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+#button3:hover{
+    box-shadow:5px 5px 10px rgba(0,0,0,0.15)
+}
+

@@ -1,0 +1,38 @@
+.pfp{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    border:solid red;
+    border-radius:75%;
+    
+    
+}
+.profile-hori{
+    display:inline-block;
+    vertical-align:top;
+    width:100px;
+}
+.friend-desc{
+    display:inline-block;
+    width:100px;
+    margin-left:8px;
+    vertical-align:middle;
+    margin-top:20px;
+}
+p{
+    font:arial;
+    margin-top:0;
+    margin-bottom:0;
+    
+    
+}
+
+.desc,.trend{
+    color: rgb(141, 141, 141)
+}
+.friend-preview{
+    width:300px;
+    height:110px;
+    border:solid red;
+    
+}
